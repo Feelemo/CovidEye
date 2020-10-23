@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Favicons -->
+	<link href="img/favicon.png" rel="icon">
+	<script src="https://kit.fontawesome.com/9a924aeb9b.js" crossorigin="anonymous"></script>
+	<link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
+
+	<!-- Libraries CSS Files -->
+	<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+	<!-- Main Stylesheet File -->
+	<link href="/BIT210/assets/css/aboutus.css" rel="stylesheet">
+
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <title>CovidEye</title>
+	<style>
+	body{
+	font-family: arial;
+	outline: none;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+.navbar-inverse{
+
+  background-image:linear-gradient(to right, #302e53, #274579,#633f85,#ef5474);
+	border-color: transparent;
+  opacity: .8;
+
+}
+
+.navbar-inverse .navbar-brand {
+
+	font-size: 30px;
+	margin-right: 40px;
+}
+
+#myNavbar .navbar-nav li a{
+	color: #fff;
+	font-size: 19px;
+	}
+#myNavbar #course{
+	transition: all 0.3s ease-in-out;
+}
+#myNavbar #course:hover{
+	background-color:#0751a6;
+
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f0f0f0;
+  box-shadow: 2px 8px 16px 0px rgba(0,0,0,.2);
+  z-index: 1;
+
+}
+
+.dropdown-menu a {
+	color: #000 !important;
+	font-size: 16px !important;
+
+  font-family: arial;
+  font-weight: bold;
+}
+
+.dropdown:hover .dropdown-menu {display: block;transition: all 0.5s ease-in-out;}
+
+.dropdown .dropdown-menu a:hover{background-color: #c9c7c7;}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: black;
+  color:white;
+}
+	</style>
+</head>
+<body>
+
+	<!--navigation-->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <img class="logo" src="logo.png">
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li ><a href="covidmap.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Home</a></li>
+          <li  id="course" class="dropdown" ><a  href="#">Login as<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="TestCentreManager.html">Test Centre Manager</a></li>
+            <li><a href="TesterLogin.html">Tester</a></li>
+            <li><a href="patientLogin.html">Patient</a></li>
+        </ul>
+        </li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Sign Up Application</a></li>
+          <li><a href="#">View Application</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+    <br><br><br>
+<!-- Test Report -->
+<section id="services">
+      <div class="container">
+		<br><br>
+        <div class="section-header">
+		  <h3><b><i class="fas fa-notes-medical"></i>  All Test Report</b></h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-1">
+            
+          </div>
+
+          <div class="table-responsive">
+            <table class="table table-hover">
+			<caption>Test Report</caption>
+				<thead>
+				<tr>
+					<th>Test ID</th>
+					<th>Test Date</th>
+					<th>Patient Name</th>
+					<th>Tester Name</th>
+					<th>Result</th>
+					<th>Result Date</th>
+					<th>Status</th>
+				</tr>
+				</thead>
+				<tr>
+					<td>1</td>
+					<td>1-10-2020</td>
+					<td>Mohammad Lim</td>
+					<td>Lim Lian Leong</td>
+					<td>Pending</td>
+					<td>Pending</td>
+					<td>Pending</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>3-10-2020</td>
+					<td>Siti Sisi</td>
+					<td>Ahmad Bin</td>
+					<td>Nevgetive</td>
+					<td>5-10-2020</td>
+					<td>Complete</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>4-10-2020</td>
+					<td>Tan Ji Wen</td>
+					<td>Lin Lee Xian</td>
+					<td>Positive</td>
+					<td>7-10-2020</td>
+					<td>Complete</td>
+				</tr>
+				
+				
+			</table>
+          </div>
+
+          <div class="col-lg-1">
+            
+          </div>
+        </div>
+      </div>
+</section>
+<br><br><br>
+	<!-- Footer -->
+	<footer class="page-footer font-small pt-4">
+		<!-- Footer Links -->
+		<div class="container text-center text-md-left">
+			<!-- Grid row -->
+			<div class="row">
+				<!-- Grid column -->
+				<div class="col-md-4 mx-auto">
+					<!-- Content -->
+					<h5 class="font-weight-bold text-uppercase mt-3 mb-4">
+						<div id="company_logo" >
+							<h1><a href="#" class="company_title">Covid<span>Eye</span></a></h1>
+						  </div>
+					  </h5>
+					<p>Keeping track of tests that have been performed at the various test centres.</p>
+				</div>
+
+				<!-- Grid column -->
+				<div class="col-md-4 mx-auto">
+					<!-- Links -->
+					<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Explore</h5>
+					<ul class="list-unstyled">
+						<li><a href="#!">CovidEye</a></li>
+						<li><a href="#!">Feedback</a></li>
+						<li><a href="#!">Covid-19 Latest News</a></li>
+					</ul>
+				</div>
+				<!-- Grid column -->
+				<div class="col-md-4 mx-auto">
+					<!-- Links -->
+					<h5 class="font-weight-bold text-uppercase mt-3 mb-4">Policies</h5>
+					<ul class="list-unstyled">
+						<li><a href="#!">Privacy statement</a></li>
+						<li><a href="#!">Terms & Conditions</a></li>
+					</ul>
+				</div>
+				<!-- Grid column -->
+			</div>
+			<!-- Grid row -->
+		</div>
+		<!-- Footer Links -->
+		<hr>
+		<!-- Social buttons -->
+		<div id="social-platforms">
+			<button type="button" class="btn btn-danger pinterest"><a href="#" class="pinterest_icon"><img src="/BIT210/assets/images/pinterest_icon.png"></a></button>
+			<button type="button" class="btn btn-primary facebook"><a href="#" class="facebook_icon"><img src="/BIT210/assets/images/facebook_icon.png"></a></button>
+			<button type="button" class="btn btn-info googleplus"><a href="#" class="googleplus_icon"><img src="/BIT210/assets/images/googlePlus_icon.png"></a></button>
+		</div>
+		<!-- Copyright -->
+		<div class="footer-copyright text-center py-3">© 2020 Copyright:
+			<a href="https://mdbootstrap.com/education/bootstrap/">CovidEye.com</a>
+		</div>
+		<!-- Copyright -->
+	</footer>
+
+<!-- JavaScript Libraries -->
+	<script src="/Assignment/lib/jquery/jquery.min.js"></script>
+	<script src="/Assignment/lib/owlcarousel/owl.carousel.min.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,538 @@
+/* Top Bar */
+
+#topbar {
+		background: #fff;
+		padding: 10px 0px; 
+		font-size: 15px;
+}
+	
+#topbar .contact-info a {
+		line-height: 100%;
+		color: #000000; 
+}
+	
+#topbar .contact-info a:hover {
+		color: #625FCC;
+}
+	
+#topbar .contact-info i {
+		color: #625FCC;
+		padding: 5px;		
+}
+	
+#topbar .contact-info .fa-envelope-o {
+		margin-left: 10px;
+}
+	
+#topbar .contact-info .fa-phone {
+		padding-left: 20px;
+		margin-left: 20px;
+		border-left: 1px solid #e9e9e9;
+}
+	
+#topbar .social-links a {
+		color: #555;
+		margin-right: 10px; 
+		padding-top: 5px;
+		padding-bottom: 5px; 
+		padding-right: 18px;
+		display: inline-block;
+		line-height: 100%;
+		border-right: 1px solid #e9e9e9;
+}
+	
+#topbar .social-links .twitter {
+		border-right: none; 
+}
+	
+#topbar .social-links a:hover {
+		color: #625FCC;
+}
+
+#topbar .clearfix {
+		 overflow: auto;
+}
+
+/* General */
+
+body {
+  background: #FFFFFF;
+  color: #444444;
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  color: #50D8AF;
+  transition: 0.5s;
+}
+
+a:hover,
+a:active,
+a:focus {
+  color: #51d8af;
+  outline: none;
+  text-decoration: none;
+}
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+/* Header */
+
+#header {
+  padding: 20px 0;
+  height: 84px;
+  transition: all 0.5s;
+  z-index: 997;
+  background: #2E4053 ;
+  box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
+}
+
+#header #logo h1 {
+  font-size: 42px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+#header #logo h1 a {
+  color: #FFC300;
+  line-height: 1;
+  display: inline-block;
+}
+
+#header #logo h1 a span {
+  color: #FF5733 ;
+}
+
+#header #logo img {
+  padding: 0;
+  margin: 0;
+}
+
+/* Intro */
+
+#intro {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+  background: url("../img/home1.jpg") no-repeat;
+  background-size: cover;
+}
+
+#intro .intro-content {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+#intro .intro-content h2 {
+  color: #0c2e8a;
+  margin-bottom: 30px;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+#intro .intro-content h2 span {
+  color: #2E86C1;
+}
+
+#intro .intro-content .btn-signUp {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 2px;
+  transition: 0.5s;
+  margin: 10px;
+  color: #FFFFFF;
+  background: #0c2e8a;
+  border: 2px solid #0c2e8a;
+}
+
+#intro .intro-content .btn-signUp:hover {
+  background: none;
+  color: #0c2e8a;
+}
+
+#intro #intro-carousel::before {
+  content: '';
+  background-color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 7;
+}
+
+#intro #intro-carousel .item {
+  width: 100%;
+  height: 380px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition-property: opacity;
+}
+
+/* Navigation */
+
+.nav-menu,
+.nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-menu ul {
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  z-index: 99;
+}
+
+.nav-menu li {
+  position: relative;
+  white-space: nowrap;
+}
+
+.nav-menu > li {
+  float: left;
+}
+
+.nav-menu li:hover > ul,
+.nav-menu li.sfHover > ul {
+  display: block;
+}
+
+.nav-menu ul ul {
+  top: 0;
+  left: 100%;
+}
+
+.nav-menu ul li {
+  min-width: 180px;
+}
+
+#nav-menu-container {
+  float: right;
+  margin: 0;
+}
+
+.nav-menu a {
+  padding: 10px 8px;
+  text-decoration: none;
+  display: inline-block;
+  color: #F7DC6F;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  outline: none;
+}
+
+.nav-menu li:hover > a,
+.nav-menu .menu-active > a {
+  color: #FFFFFF;
+}
+
+.nav-menu > li {
+  margin-left: 10px;
+}
+
+.nav-menu ul {
+  margin: 4px 0 0 0;
+  padding: 10px;
+  background: #FFFFFF;
+}
+
+.nav-menu ul li {
+  transition: 0.3s;
+}
+
+.nav-menu ul li a {
+  padding: 10px;
+  color: #F7DC6F;
+  transition: 0.3s;
+  display: block;
+  font-size: 13px;
+  text-transform: none;
+}
+
+.nav-menu ul li:hover > a {
+  color: #F7DC6F;
+}
+
+.nav-menu ul ul {
+  margin: 0;
+}
+
+/* Sections */
+
+.section-header {
+  margin-bottom: 30px;
+}
+
+.section-header h2 {
+  font-size: 32px;
+  color: #0C2E8A;
+  text-transform: uppercase;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.section-header h2::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #50D8AF;
+  bottom: 0;
+  left: 0;
+}
+
+/* About Us */
+
+#about {
+  padding: 60px 0px;
+}
+
+/* Application */
+
+#services {
+  padding: 30px 0 0 0;
+}
+
+#services .box {
+  padding: 40px;
+  margin-bottom: 40px;
+  box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
+  background: #FFFFFF;
+  transition: 0.4s;
+}
+
+#services .box:hover {
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  transform: translateY(-10px);
+ 
+}
+
+#services .box .icon {
+  float: left;
+}
+
+#services .box .icon i {
+  color: #0C2E8A;
+  font-size: 70px;
+  transition: 0.5s;
+  line-height: 0;
+  margin-top: 34px;
+}
+
+#services .box .icon i:before {
+  background: #0C2E8A;
+  background: linear-gradient(45deg, #50d8af 0%, #a3ebd5 100%);
+  background-clip: border-box;
+}
+
+#services .box h4 {
+  margin-left: 100px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+#services .box h4 a {
+  color: #444444;
+}
+
+#services .box p {
+  font-size: 15px;
+  margin-left: 100px;
+  margin-bottom: 0;
+  line-height: 24px;
+}
+
+/* Responsiveness */
+
+@media (max-width: 768px) {
+  #header {
+    padding: 20px 0;
+    height: 74px;
+  }
+
+  #header #logo h1 {
+    font-size: 34px;
+  }
+
+  #header #logo img {
+    max-height: 40px;
+  }
+
+  #nav-menu-container {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  #intro .intro-content h2 {
+    font-size: 34px;
+  }
+
+  #services .box .box {
+    margin-bottom: 20px;
+  }
+
+  #services .box .icon {
+    float: none;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  #services .box h4,
+  #services .box p {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+/*login modal*/
+.modal-login {
+	width: 320px;
+}
+.modal-login .modal-content {
+	border-radius: 1px;
+	border: none;
+}
+.modal-login .modal-header {
+	position: relative;
+	justify-content: center;
+	background: #f2f2f2;
+}
+.modal-login .modal-body {
+	padding: 30px;
+}
+.modal-login .modal-footer {
+	background: #f2f2f2;
+}
+.modal-login h4 {
+	text-align: center;
+	font-size: 26px;
+}
+.modal-login label {
+	font-weight: normal;
+	font-size: 13px;
+}
+.modal-login .form-control, .modal-login .btn {
+	min-height: 38px;
+	border-radius: 2px; 
+}
+.modal-login .hint-text {
+	text-align: center;
+}
+.modal-login .close {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+}
+.modal-login .checkbox-inline {
+	margin-top: 12px;
+}
+.modal-login input[type="checkbox"]{
+	margin-top: 2px;
+}
+.modal-login .btn {
+	min-width: 100px;
+	background: #3498db;
+	border: none;
+	line-height: normal;
+}
+.modal-login .btn:hover, .modal-login .btn:focus {
+	background: #248bd0;
+}
+.modal-login .hint-text a {
+	color: #999;
+}
+
+#loginHOBtn {
+	color: darkblue;
+	font-size:13px;
+	margin-left:55px;
+}
+
+/* Page footer*/
+
+.page-footer{
+
+    background-color: #2e4053;
+    color:whitesmoke;
+}
+
+.list-unstyled,a{
+
+    color:whitesmoke;
+    
+}
+
+#company_logo h1 a {
+    color: #FFC300;
+    line-height: 1;
+    display: inline-block;
+  }
+  
+  #company_logo h1 a span {
+    color: #FF5733 ;
+  }
+
+
+#social-platforms{
+
+    position: relative;
+    text-align: center;
+}
+
+
+.pinterest ,.facebook, .googleplus{
+
+    background-color:white;
+    border-radius: 50%;
+    padding:0;
+    
+}
+
+.button{
+
+
+    height:38px;
+    width:39px;
+}
