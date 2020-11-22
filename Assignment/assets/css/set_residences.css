@@ -1,0 +1,171 @@
+
+/* Top navigation bar */
+
+#topbar {
+	background: #fff;
+	padding: 10px 0px; 
+	font-size: 15px;
+}
+
+#topbar .contact-info a {
+	line-height: 100%;
+	color: #000000; 
+}
+
+#topbar .contact-info a:hover {
+	color: #625FCC;
+}
+
+#topbar .contact-info i {
+	color: #625FCC;
+	padding: 5px;		
+}
+
+#topbar .contact-info .fa-envelope-o {
+	margin-left: 10px;
+}
+
+#topbar .contact-info .fa-phone {
+	padding-left: 20px;
+	margin-left: 20px;
+	border-left: 1px solid #e9e9e9;
+}
+
+#topbar .social-links a {
+	color: #555;
+	margin-right: 10px; 
+	padding-top: 5px;
+	padding-bottom: 5px; 
+	padding-right: 18px;
+	display: inline-block;
+	line-height: 100%;
+	border-right: 1px solid #e9e9e9;
+}
+
+#topbar .social-links .twitter {
+	border-right: none; 
+}
+
+#topbar .social-links a:hover {
+	color: #625FCC;
+}
+#topbar .clearfix {
+	 overflow: auto;
+}
+
+.navbar {
+	margin-bottom: 0px; 
+}
+
+.nav-pills .pill-1 .nav-link:not(.active) {
+	color: rgb(255, 255, 255); 
+}
+
+.nav-pills .pill-2 .nav-link:not(.active) {
+	color: rgb(255, 255, 255); 
+}
+
+.nav-pills .pill-3 .nav-link:not(.active) {
+	color: rgb(255, 255, 255); 
+}
+
+.nav-pills .pill-4 .nav-link:not(.active) {
+	color: rgb(255, 255, 255); 
+}
+
+.nav-pills .pill-5 .nav-link:not(.active) {
+	color: rgb(255, 255, 255); 
+}
+
+
+
+/*  Table residences  */
+.modal-content{
+
+    background-color: #314455	;
+}
+.modal-title{
+    color:#FFFFFF;
+}
+
+.modal-body{ 
+    color:#FFFFFF; 
+    margin-left: 5%;
+    margin-right:5%;
+    
+    
+    }
+
+.modal-header{
+    margin-left:0%;
+    margin-top:5%;
+}
+.modal-title{ 
+    font-size: 2.1em;
+    margin-left:6%;
+}
+
+.card{
+    margin-top: 3%;
+    margin-left:7%;
+    margin-right:7%;
+
+}
+
+.table{
+
+    
+    margin-right:3%;
+}
+
+
+/* Page footer*/
+
+.page-footer{
+
+    background-color: #2e4053;
+    color:whitesmoke;
+}
+
+.list-unstyled,a{
+
+
+    color:whitesmoke;
+    
+}
+
+#company_logo h1 a {
+    color: #FFC300;
+    line-height: 1;
+    display: inline-block;
+  }
+  
+  #company_logo h1 a span {
+    color: #FF5733 ;
+  }
+
+
+#social-platforms{
+
+    position: relative;
+    text-align: center;
+}
+
+
+.pinterest ,.facebook, .googleplus{
+
+    background-color:white;
+    border-radius: 50%;
+    padding:0;
+    
+}
+
+.button{
+
+
+    height:38px;
+    width:39px;
+}
+
+
+
