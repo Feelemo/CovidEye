@@ -12,6 +12,6 @@
   if (isset($_GET['signout'])) {
   	session_destroy();
   	unset($_SESSION['username']);
-  	header("location: /Assignment/home.html");
+  	header("location: /Assignment/index.html");
   }
 ?>
